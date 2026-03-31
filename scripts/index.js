@@ -10,11 +10,11 @@ function validateForm() {
   var password = document.getElementById("password").value;
 
   //validasi username dan password, username dan password bisa diganti sesuai keinginan
-  if (username === "user" && password === "user") {
+  if (username === "ANISA" && password === "ANISA") {
     Swal.fire({
-      icon: "success",
-      title: "Login berhasil!",
-      text: "Selamat datang",
+      icon: "Succes",
+      title: "Login Berhasil!",
+      text: "Selamat Datang",
       showConfirmButton: false,
       timer: 1500,
     }).then(function () {
@@ -22,10 +22,10 @@ function validateForm() {
     });
   } else {
     Swal.fire({
-      icon: "error",
-      title: "Login gagal!",
+      icon: "Error",
+      title: "Login Gagal!",
       text: "Coba cek lagi username sama passwordnya ya:)",
-      confirmButtonText: "Coba lagi",
+      confirmButtonText: "Coba Lagi",
       confirmButtonColor: "#ff7675",
     });
   }
